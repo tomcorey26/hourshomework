@@ -1,0 +1,9 @@
+var num1, num2, num3 ,num4, sum
+    num1 = prompt("How many minutes will your CSC Homework be")
+    num2 = prompt("How many minutes will your WRT homework be")
+    num3 = prompt("How many minutes will your JAZZ homework be")
+    num4 = prompt("How many minutes will your PSYCH homework be")
+    sum = parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4)  // "+" means "add"
+    hours= sum / 60
+
+    alert("It will take " + hours + " hours to do your homework")  // "+" means combine into a string
